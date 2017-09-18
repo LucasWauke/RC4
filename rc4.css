@@ -1,0 +1,61 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+h1{
+	text-align: center;
+	color: #424242;
+	margin-top: 40px;
+}
+
+.conteudo{
+	background-color: #E0E0E0;
+	width: 400px;	
+	height: 460px;
+	margin: 30px auto;
+	padding-top: 15px;
+	padding-left: 95px;
+	box-sizing: border-box;
+	border-radius: 20px;	
+}
+
+.campo{
+	width: 70%;
+	margin-right: 10px;
+}
+
+.campo:nth-of-type(odd),
+.campo:nth-of-type(4){
+	height: 50px;
+}
+
+p.paragrafo:first-child {
+    margin-top: 10px;
+}
+
+.input{
+	display: flex;
+	align-items: center;
+}
+
+.paragrafo{
+	margin: 20px auto 3px auto;
+}
+
+button{
+	display: block;
+	margin-top: 5px;
+	width: 120px;
+	border: none;
+	background-color: #BDBDBD;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+button:hover{
+	background-color: #EEEEEE;
+	cursor: pointer;
+}
